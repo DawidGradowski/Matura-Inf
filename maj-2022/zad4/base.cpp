@@ -1,10 +1,12 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
+    string zadNumber = "";
     fstream file;
     int fValue;
     file.open("../przyklad.txt", ios::in);
@@ -17,5 +19,7 @@ int main()
         }
     }
     
+    // cout << zadNumber + ": " <<  << endl;
+
     return 0;
 }
