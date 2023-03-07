@@ -27,7 +27,7 @@ int main()
     }
     file.close();
 
-    file.open("przyklad.txt", ios::in);
+    file.open("liczby.txt", ios::in);
     if (file.good())
     {
         while (!file.eof())

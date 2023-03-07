@@ -9,7 +9,7 @@ int main()
     string zadNumber = "";
     fstream file;
     int fValue;
-    file.open("../przyklad.txt", ios::in);
+    file.open("przyklad.txt", ios::in);
     if (file.good())
     {
         while (!file.eof())
@@ -18,7 +18,7 @@ int main()
             cout << fValue << endl;
         }
     }
-    
+
     // cout << zadNumber + ": " <<  << endl;
 
     return 0;
