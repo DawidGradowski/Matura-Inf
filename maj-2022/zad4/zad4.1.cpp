@@ -12,7 +12,7 @@ int main()
     int count = 0;
     string firstNumber = "None";
 
-    file.open("../przyklad.txt", ios::in);
+    file.open("liczby.txt", ios::in);
     if (file.good())
     {
         while (!file.eof())
@@ -30,6 +30,6 @@ int main()
         cout << zadNumber + ": " << count << " " << firstNumber << endl;
         file.close();
     }
-    
+
     return 0;
 }
